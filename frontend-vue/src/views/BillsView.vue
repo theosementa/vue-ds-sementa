@@ -52,8 +52,8 @@
 </template>
 
 <script>
-import BillTableRow from '@/components/TableList/BillTableRow.vue'
-import TableList from '@/components/TableList/TableList.vue'
+import BillTableRow from '@/components/Bills/TableList/BillTableRow.vue'
+import TableList from '@/components/Bills/TableList/TableList.vue'
 import { useBillStore } from '@/stores/bill.js'
 import { mapActions, mapState } from 'pinia'
 

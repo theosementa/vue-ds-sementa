@@ -287,7 +287,7 @@
 
 <script>
 // import PrestationTableRow from '@/components/TableList/PrestationTableRow.vue'
-import TableList from '@/components/TableList/TableList.vue'
+import TableList from '@/components/Bills/TableList/TableList.vue'
 import { clients } from '@/seeds/clients.js'
 // on importe le store
 import { useBillStore } from '@/stores/bill.js'
