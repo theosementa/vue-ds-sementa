@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td class="align-middle">{{ clientName }}</td>
-    <td class="align-middle">{{ client.companyName }}</td>
+    <td class="align-middle">{{ client.entreprise }}</td>
     <td class="align-middle">{{ client.addDate }}</td>
     <td class="align-middle d-flex gap-2 justify-content-end align-items-center">
       <button @click="onDelete()" class="btn btn-outline-danger">

@@ -50,6 +50,10 @@
                         <label for="entreprise" class="form-label">Entreprise</label>
                         <input type="text" class="form-control" id="entreprise" v-model="client.entreprise">
                     </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Date d'ajout</label>
+                        <input type="date" class="form-control" id="date" value="2021-02-12" v-model="client.addDate">
+                    </div>
                 </fieldset>
                 <fieldset class="border p-3 mb-4">
                     <legend class="w-auto px-2">Coordonnées:</legend>
